@@ -7,8 +7,10 @@
         mc:Ignorable="d"
         Title="AutoPPT" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnGenerate" Content="Button" HorizontalAlignment="Left" Height="71" Margin="594,338,0,0" VerticalAlignment="Top" Width="188"/>
-        <DatePicker x:Name="dtDatePicker" HorizontalAlignment="Left" Margin="358,149,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnGenerate" Content="Generate" HorizontalAlignment="Left" Height="71" Margin="594,338,0,0" VerticalAlignment="Top" Width="188"/>
+        <DatePicker x:Name="dtDatePicker" HorizontalAlignment="Left" Margin="241,123,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblTitle" Content="AutoPPT" HorizontalAlignment="Left" Margin="242,35,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label x:Name="lblSubtitle" Content="Automate Your PowerPoint Needs" HorizontalAlignment="Left" Margin="241,77,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
