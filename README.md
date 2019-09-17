@@ -1,2 +1,2 @@
 # AutoPPT
-Automate PowerPoint Creation
+Automatic PowerPoint Creation
