@@ -5,6 +5,7 @@ Class MainWindow
         Dim dtDate As Date = dtDatePicker.DisplayDate
         Dim iMonth As Integer = dtDate.Date.Month
         Dim sFilePath As String = ""
+        Dim filename As String = ""
 
         Dim oApp As PowerPoint.Application
         Dim oPres As PowerPoint.Presentation
@@ -39,8 +40,8 @@ Class MainWindow
                 iNum += 1
             Loop
 
-            Dim filename As String = ""
-            oPres.SaveAs("")
+
+            oPres.SaveAs(filename)
             oApp.Quit()
         Catch ex As Exception
         End Try
